@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "vim", "vim\vim.fsproj", "{2AD98175-B711-4A62-A664-A2B0CF8F0FBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4BAF20D4-5A84-4121-B2F5-065E7346B129}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ci", "ci\ci.fsproj", "{18C95C70-30DC-4483-A754-CE23AFA35370}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Common", "Common\Common.fsproj", "{22FA2BAC-5D79-4738-AAAD-E540F01F73D5}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TestUtil", "TestUtil\TestUtil.fsproj", "{B8B4D50F-E196-49E2-A3F5-FF54980FCFDA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ci.Console", "ci.Console\ci.Console.fsproj", "{0554B12E-C406-40A2-805A-1587D915FB4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AD98175-B711-4A62-A664-A2B0CF8F0FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD98175-B711-4A62-A664-A2B0CF8F0FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD98175-B711-4A62-A664-A2B0CF8F0FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD98175-B711-4A62-A664-A2B0CF8F0FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C95C70-30DC-4483-A754-CE23AFA35370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C95C70-30DC-4483-A754-CE23AFA35370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C95C70-30DC-4483-A754-CE23AFA35370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C95C70-30DC-4483-A754-CE23AFA35370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FA2BAC-5D79-4738-AAAD-E540F01F73D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FA2BAC-5D79-4738-AAAD-E540F01F73D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FA2BAC-5D79-4738-AAAD-E540F01F73D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FA2BAC-5D79-4738-AAAD-E540F01F73D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B4D50F-E196-49E2-A3F5-FF54980FCFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B4D50F-E196-49E2-A3F5-FF54980FCFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B4D50F-E196-49E2-A3F5-FF54980FCFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B4D50F-E196-49E2-A3F5-FF54980FCFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0554B12E-C406-40A2-805A-1587D915FB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0554B12E-C406-40A2-805A-1587D915FB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0554B12E-C406-40A2-805A-1587D915FB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0554B12E-C406-40A2-805A-1587D915FB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
