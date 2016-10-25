@@ -17,7 +17,3 @@ let ``why and when vim creates ~ files`` () = todo()
 let ``add asks to check if trailing spaces are gone`` () = todo() 
 [<Test>]
 let ``fix whatever broken`` () = todo()
-[<Test>]
-let ``store expected command as strings mechanism connected`` () = todo()
-[<Test>]
-let ``add git , vim and fsharp`` () = todo()
